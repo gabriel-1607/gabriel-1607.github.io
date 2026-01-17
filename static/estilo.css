@@ -2,10 +2,22 @@ body {
     background-image: linear-gradient(270deg, white, rgb(255, 227, 227));
 }
 
-section {
-    margin-top: 30px;   
-    width: 50%;
+@media (max-width:576px) {
+    h1 {
+        font-size: 24px;
+    }
 }
+
+@media (min-width: 768px) {
+    section {
+        width: 50%;
+    }
+}
+
+section {
+    margin-top: 30px;
+}
+
 section > h2 {
     border-bottom: 5px solid rgb(185, 139, 87);
     color:darkred;
