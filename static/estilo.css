@@ -3,10 +3,16 @@ body {
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 @media (min-width:576px) {
+    h1 {
+        font-size: 26px;
+    }
+}
+
+@media (min-width: 768px) {
     h1 {
         font-size: revert;
     }
@@ -51,7 +57,7 @@ section > ul li {
 
 section > ul > a {
     color: rgb(255, 0, 0);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Calibri, sans-serif;
     text-decoration: none;
     font-size: 20px;
 }
