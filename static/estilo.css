@@ -28,41 +28,47 @@ section {
     }
 }
 
-section {
+section.informacion {
+    padding: 10px;
+    border: 5px double darkred;
+}
+
+section.enlaces {
     margin-top: 30px;
 }
 
-section > h2 {
+section.enlaces > h2 {
     border-bottom: 5px solid rgb(185, 139, 87);
     color:darkred;
 }
 
-section > ul {
+section.enlaces ul {
     padding-inline-start: 0px;
 }
 
 @media (min-width:768px) {
-    section > ul {
+    section.enlaces ul {
         padding-inline-start: revert;
     }
 }
 
-section > ul li {
+section.enlaces ul li {
     margin: 10px;
-    padding: 10px;
     border-radius: 10px;
     background-color: rgba(139, 0, 0, 0.052);
     list-style: none;
 }
 
-section > ul > a {
+section.enlaces ul a {
+    display: block;
+    padding: 10px;
     color: rgb(255, 0, 0);
     font-family: Calibri, sans-serif;
     text-decoration: none;
     font-size: 20px;
 }
 
-section > ul > a span {
+section.enlaces ul a > span {
     color: darkred;
     font-size: 15px;
 }
