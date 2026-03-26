@@ -1,0 +1,48 @@
+.main-nav > div {
+    height: 100vh;
+}
+
+.main-nav h1 a {
+    color:inherit;
+    text-decoration: none;
+}
+
+.main-nav h1 a:hover {
+    text-decoration: underline;
+}
+
+.main-nav .nav-link {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+.main-nav .nav-link:hover {
+    background-color: lightgray;
+}
+
+.heading-anchor {
+  color: inherit;
+  text-decoration: none;
+}
+
+.heading-anchor:hover {
+    text-decoration: underline;
+}
+
+.heading-anchor::after {
+    content: "#";
+    display: inline-block;
+    padding-left: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.heading-anchor:hover::after {
+    opacity: 1;
+}
+
+main > section > article, main > section > article > article {
+    scroll-margin-top: 100px;
+}
