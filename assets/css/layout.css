@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+.main-nav > div {
+    height: 450px;
+}
+}
+
+@media (min-height: 450px) and (min-width: 992px) {
+    .main-nav > div {
+        height: 100vh;
+    }
+}
+
+.main-nav > div {
+    overflow-y: scroll;
+    scrollbar-gutter: stable;
+}
+
+@media (min-height: 450px) and (min-width: 992px) {
+    .main-nav > div {
+        overflow-y: hidden;
+    }
+}
+
+main > section > article {
+    scroll-margin-top: 100px;
+}

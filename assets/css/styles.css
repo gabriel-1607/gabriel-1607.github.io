@@ -1,5 +1,11 @@
-.main-nav > div {
-    height: 100vh;
+.main-nav .titulo {
+    font-size: 125%;
+}
+
+@media (min-width: 1200px) {
+    .main-nav .titulo {
+        font-size: 150%;
+    }
 }
 
 .main-nav h1 a {
@@ -11,11 +17,48 @@
     text-decoration: underline;
 }
 
+.main-nav li {
+    width: 50%;
+}
+
+@media (min-width: 768px) {
+    .main-nav li {
+        width: inherit;
+    }
+}
+
 .main-nav .nav-link {
-    padding-top: 20px;
-    padding-bottom: 20px;
     border: 1px solid gray;
     border-radius: 20px;
+    
+}
+
+@media (min-height: 600px) and (min-width: 992px) {
+    .main-nav .nav-link {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (min-height: 800px) and (min-width: 992px) {
+    .main-nav .nav-link {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+@media (min-height: 1000px) and (min-width: 992px) {
+    .main-nav .nav-link {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+@media (min-height: 1200px) and (min-width: 992px) {
+    .main-nav .nav-link {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 }
 
 .main-nav .nav-link:hover {
@@ -41,8 +84,4 @@
 
 .heading-anchor:hover::after {
     opacity: 1;
-}
-
-main > section > article, main > section > article > article {
-    scroll-margin-top: 100px;
 }
