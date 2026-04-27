@@ -9,5 +9,18 @@
 }
 
 .tertiary-local {
+    color: black;
     background-color: rgb(255, 239, 231);
 }
+
+body > footer {
+    color: black;
+    background-image: linear-gradient(to bottom, rgb(255, 207, 165), 85%, sienna);
+    padding-bottom: 100px;
+}
+
+/* temaporary: erase */
+section > nav {
+    border-bottom: 10px groove gray;
+}
+/* temaporary: erase */

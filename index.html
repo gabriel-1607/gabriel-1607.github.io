@@ -104,8 +104,8 @@
     <section id="acerca-de" class="row" data-bs-spy="scroll" data-bs-target="#acerca-de-nav">
 
       <nav id="acerca-de-nav" class="d-none d-md-block col-md-3 col-lg-2 tertiary-local">
-        <div class="sticky-md-top py-5 text-center sidebar-scroll">
-          <a class="fs-5 text-body-emphasis" href="#acerca-de">Acerca de mí</a>
+        <div class="sticky-md-top sidebar-scroll py-5 text-center">
+          <a class="fs-4 text-body-emphasis" href="#acerca-de">Acerca de mí</a>
           <ul class="nav nav-fill nav-underline flex-column row-gap-5 mt-5 pb-5">
             <li class="nav-item"><a class="nav-link" href="#acerca-de-introduccion">Introducción</a></li>
             <li class="nav-item"><a class="nav-link" href="#acerca-de-educacion">Educación</a></li>
@@ -373,144 +373,165 @@
       </div>
     </section>
 
-    <section id="portafolio" data-bs-spy="scroll" data-bs-target="#portafolio-header">
+    <section id="portafolio" class="row" data-bs-spy="scroll" data-bs-target="#portafolio-nav">
 
-      <header id="portafolio-header">
-        <h2><a href="#portafolio">Portafolio de programador</a></h2>
-        <nav>
-          <ul>
-            <li><a href="#portafolio-sep"><abbr title="Stakeholder Engagement Platform">SEP</abbr></a></li>
-            <li><a href="#portafolio-ambrosini-ballet">Ambrosini Ballet</a></li>
-            <li><a href="#portafolio-speller">Speller</a></li>
-            <li><a href="#portafolio-mdn">Contribución a <abbr title="Mozilla Developer Network">MDN</abbr></a></li>
-            <li><a href="#portafolio-esta-pagina">Mi página</a></li>
-            <li><a href="#portafolio-pagina-latin">Página de curso</a></li>
-            <li><a href="#portafolio-pagina-ana-isabel">Página personal</a></li>
+      <nav id="portafolio-nav" class="d-none d-md-block col-md-3 col-lg-2 tertiary-local">
+        <div class="sticky-md-top sidebar-scroll py-5 text-center">
+          <a class="fs-4 text-body-emphasis" href="#portafolio">Portafolio de programador</a>
+          <ul class="nav nav-fill nav-underline flex-column row-gap-5 mt-5 pb-5">
+            <li class="nav-item"><a class="nav-link" href="#portafolio-sep"><abbr title="Stakeholder Engagement Platform">SEP</abbr></a></li>
+            <li class="nav-item"><a class="nav-link" href="#portafolio-ambrosini-ballet">Ambrosini Ballet</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portafolio-speller">Speller</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portafolio-mdn">Contribución a <abbr title="Mozilla Developer Network">MDN</abbr></a></li>
+            <li class="nav-item"><a class="nav-link" href="#portafolio-esta-pagina">Mi página</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portafolio-pagina-latin">Página de curso</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portafolio-pagina-ana-isabel">Página personal</a></li>
           </ul>
-        </nav>
-      </header>
+        </div>
+      </nav>
 
-      <article id="portafolio-sep">
-        <header>
-          <h3><a href="#portafolio-sep">Stakeholder Engagement Platform</a></h3>
-        </header>
-        <p>Este proyecto es una aplicación web que fortalece la comunicación y la toma de decisiones, mediante mecanismos de depuración de la información, que sirve para comunidades, asociaciones o negocios. Hace uso de en profundidad Django (Python), Bootstrap y JavaScript.</p>
-        <a href="https://github.com/gabriel-1607/SEP" target="_blank">Ver código</a>
-      </article>
+      <div class="col-md">
 
-      <article id="portafolio-ambrosini-ballet">
         <header>
-          <h3><a href="#portafolio-ambrosini-ballet">Ambrosini Ballet</a></h3>
+          <h2><a href="#portafolio">Portafolio de programador</a></h2>
         </header>
-        <p>Una aplicación web que permite la administración de las finanzas y de los alumnos de una academia de Ballet. Hace uso de Flask (Python) y Bootstrap.</p>
-        <a href="https://github.com/gabriel-1607/ambrosini-ballet" target="_blank">Ver código</a>
-      </article>
 
-      <article id="portafolio-speller">
-        <header>
-          <h3><a href="#portafolio-speller">Speller</a></h3>
-        </header>
-        <p>Un pequeño progama escrito en C que verifica la ortografía de palabras de acuerdo a un diccionario, mediante manejo de memoria de bajo nivel.</p>
-        <a href="https://cs50.harvard.edu/x/psets/5/speller/" target="_blank">Ver información</a>
-      </article>
+        <article id="portafolio-sep">
+          <header>
+            <h3><a href="#portafolio-sep">Stakeholder Engagement Platform</a></h3>
+          </header>
+          <p>Este proyecto es una aplicación web que fortalece la comunicación y la toma de decisiones, mediante mecanismos de depuración de la información, que sirve para comunidades, asociaciones o negocios. Hace uso de en profundidad Django (Python), Bootstrap y JavaScript.</p>
+          <a href="https://github.com/gabriel-1607/SEP" target="_blank">Ver código</a>
+        </article>
 
-      <article id="portafolio-mdn">
-        <header>
-          <h3><a href="#portafolio-mdn">Contribución a MDN Web Docs</a></h3>
-        </header>
-        <p>He contribuido a la documentación de <a href="https://developer.mozilla.org/en-US/docs/Web" target="_blank">MDN</a> corrigiendo un pequeño error en un ejemplo de código cuyo resultado no era el esperado.</p>
-        <a href="https://github.com/mdn/content/pull/42890" target="_blank">Ver código</a>
-      </article>
+        <article id="portafolio-ambrosini-ballet">
+          <header>
+            <h3><a href="#portafolio-ambrosini-ballet">Ambrosini Ballet</a></h3>
+          </header>
+          <p>Una aplicación web que permite la administración de las finanzas y de los alumnos de una academia de Ballet. Hace uso de Flask (Python) y Bootstrap.</p>
+          <a href="https://github.com/gabriel-1607/ambrosini-ballet" target="_blank">Ver código</a>
+        </article>
 
-      <article id="portafolio-esta-pagina">
-        <header>
-          <h3><a href="#portafolio-esta-pagina">Mi página personal</a></h3>
-        </header>
-        <p>Este proyecto es es la página que estás leyendo ahora mismo, en la cual presento mis logros personales, para quien sea de interés, en concreto, en el campo laboral. Hace uso de Bootstrap, de <abbr title="Cascading style sheets">CSS</abbr> y un poco de JavaScript.</p>
-        <a href="https://github.com/gabriel-1607/gabriel-1607.github.io" target="_blank">Ver código</a>
-      </article>
+        <article id="portafolio-speller">
+          <header>
+            <h3><a href="#portafolio-speller">Speller</a></h3>
+          </header>
+          <p>Un pequeño progama escrito en C que verifica la ortografía de palabras de acuerdo a un diccionario, mediante manejo de memoria de bajo nivel.</p>
+          <a href="https://cs50.harvard.edu/x/psets/5/speller/" target="_blank">Ver información</a>
+        </article>
 
-      <article id="portafolio-pagina-latin">
-        <header>
-          <h3><a href="#portafolio-pagina-latin">Página para curso de latín</a></h3>
-        </header>
-        <p>Una página que contiene la información y los recursos necesarios para un curso de gramática latina impartida por mí. Se adapta adecuadamente a los distintos tamaños de dispositivo.</p>
-        <a href="https://gabriel-1607.github.io/latin/" target="_blank">Ver página</a>
-      </article>
+        <article id="portafolio-mdn">
+          <header>
+            <h3><a href="#portafolio-mdn">Contribución a MDN Web Docs</a></h3>
+          </header>
+          <p>He contribuido a la documentación de <a href="https://developer.mozilla.org/en-US/docs/Web" target="_blank">MDN</a> corrigiendo un pequeño error en un ejemplo de código cuyo resultado no era el esperado.</p>
+          <a href="https://github.com/mdn/content/pull/42890" target="_blank">Ver código</a>
+        </article>
 
-      <article id="portafolio-pagina-ana-isabel">
-        <header>
-          <h3><a href="#portafolio-pagina-ana-isabel">Página personal para otra persona</a></h3>
-        </header>
-        <p>Una página personal para otra persona que se adapta a los distintos tamaños de dispositivo. Todavía está en desarrollo.</p>
-        <a href="https://anaisabelreyes02.github.io/" target="_blank">Ver página</a>
-      </article>
+        <article id="portafolio-esta-pagina">
+          <header>
+            <h3><a href="#portafolio-esta-pagina">Mi página personal</a></h3>
+          </header>
+          <p>Este proyecto es es la página que estás leyendo ahora mismo, en la cual presento mis logros personales, para quien sea de interés, en concreto, en el campo laboral. Hace uso de Bootstrap, de <abbr title="Cascading style sheets">CSS</abbr> y un poco de JavaScript.</p>
+          <a href="https://github.com/gabriel-1607/gabriel-1607.github.io" target="_blank">Ver código</a>
+        </article>
+
+        <article id="portafolio-pagina-latin">
+          <header>
+            <h3><a href="#portafolio-pagina-latin">Página para curso de latín</a></h3>
+          </header>
+          <p>Una página que contiene la información y los recursos necesarios para un curso de gramática latina impartida por mí. Se adapta adecuadamente a los distintos tamaños de dispositivo.</p>
+          <a href="https://gabriel-1607.github.io/latin/" target="_blank">Ver página</a>
+        </article>
+
+        <article id="portafolio-pagina-ana-isabel">
+          <header>
+            <h3><a href="#portafolio-pagina-ana-isabel">Página personal para otra persona</a></h3>
+          </header>
+          <p>Una página personal para otra persona que se adapta a los distintos tamaños de dispositivo. Todavía está en desarrollo.</p>
+          <a href="https://anaisabelreyes02.github.io/" target="_blank">Ver página</a>
+        </article>
+      </div>
 
     </section>
 
-    <section id="servicios" data-bs-spy="scroll" data-bs-target="#servicios-header">
+    <section id="servicios" class="row" data-bs-spy="scroll" data-bs-target="#servicios-nav">
 
-      <header id="servicios-header">
-        <h2><a href="#servicios">Servicios</a></h2>
-        <nav>
-          <ul>
-            <li><a href="#servicios-aplicaciones-web">Desarrollo de aplicaciones web</a></li>
-            <li><a href="#servicios-paginas-web">Desarrollo de páginas web</a></li>
-            <li><a href="#servicios-clases-latin">Clases de latín</a></li>
+      <nav id="servicios-nav" class="d-none d-md-block col-md-3 col-lg-2 tertiary-local">
+        <div class="sticky-md-top sidebar-scroll py-5 text-center">
+          <a class="fs-4 text-body-emphasis" href="#servicios">Servicios</a>
+          <ul class="nav nav-fill nav-underline flex-column row-gap-5 mt-5 pb-5">
+            <li class="nav-item"><a class="nav-link" href="#servicios-aplicaciones-web">Desarrollo de aplicaciones web</a></li>
+            <li class="nav-item"><a class="nav-link" href="#servicios-paginas-web">Desarrollo de páginas web</a></li>
+            <li class="nav-item"><a class="nav-link" href="#servicios-clases-latin">Clases de latín</a></li>
           </ul>
-        </nav>
-      </header>
+        </div>
+      </nav>
 
-      <article id="servicios-aplicaciones-web">
-        <header>
-          <h3><a href="#servicios-aplicaciones-web">Desarrollo de aplicaciones web</a></h3>
-        </header>
-        <p>Ofrezco desarrollar aplicaciones web basadas en Django con alta eficiencia mediante técnicas AJAX y mantenimiento eficaz con tests.</p>
-      </article>
+      <div class="col-md">
 
-      <article id="servicios-paginas-web">
         <header>
-          <h3><a href="#servicios-paginas-web">Desarrollo de páginas web</a></h3>
+          <h2><a href="#servicios">Servicios</a></h2>
         </header>
-        <p>Ofrezco desarrollar páginas web basadas en Bootstrap con adaptabilidad a todo los tamaños de dispositivos y con diseños interesantes, incluyendo animaciones.</p>
-      </article>
 
-      <article id="servicios-clases-latin">
-        <header>
-          <h3><a href="#servicios-clases-latin">Clases de latín</a></h3>
-        </header>
-        <p>Ofrezco clases de lengua latina en línea. En el futuro publicaré en esta sección un enlace para las inscripciones al curso.</p>
-        <p>Escríbeme a mi correo (gabrielambrosini2002@gmail.com) para indicarme tu interés de aprender latín.</p>
-      </article>
+        <article id="servicios-aplicaciones-web">
+          <header>
+            <h3><a href="#servicios-aplicaciones-web">Desarrollo de aplicaciones web</a></h3>
+          </header>
+          <p>Ofrezco desarrollar aplicaciones web basadas en Django con alta eficiencia mediante técnicas AJAX y mantenimiento eficaz con tests.</p>
+        </article>
+
+        <article id="servicios-paginas-web">
+          <header>
+            <h3><a href="#servicios-paginas-web">Desarrollo de páginas web</a></h3>
+          </header>
+          <p>Ofrezco desarrollar páginas web basadas en Bootstrap con adaptabilidad a todo los tamaños de dispositivos y con diseños interesantes, incluyendo animaciones.</p>
+        </article>
+
+        <article id="servicios-clases-latin">
+          <header>
+            <h3><a href="#servicios-clases-latin">Clases de latín</a></h3>
+          </header>
+          <p>Ofrezco clases de lengua latina en línea. En el futuro publicaré en esta sección un enlace para las inscripciones al curso.</p>
+          <p>Escríbeme a mi correo (gabrielambrosini2002@gmail.com) para indicarme tu interés de aprender latín.</p>
+        </article>
+      </div>
 
     </section>
 
-    <section id="cursos-latin" data-bs-spy="scroll" data-bs-target="#cursos-latin-header">
+    <section id="cursos-latin" class="row" data-bs-spy="scroll" data-bs-target="#cursos-latin-nav">
 
-      <header id="cursos-latin-header">
-        <h2><a href="#cursos-latin">Cursos de latín en línea</a></h2>
-        <nav>
-          <ul>
-            <li><a href="#cursos-latin-aprende-rosario">Aprende a rezar el rosario en latín</a></li>
-            <li><a href="#cursos-latin-latin-1">Curso latín I</a></li>
+      <nav id="cursos-latin-nav" class="d-none d-md-block col-md-3 col-lg-2 tertiary-local">
+        <div class="sticky-md-top sidebar-scroll py-5 text-center">
+          <a class="fs-4 text-body-emphasis" href="#cursos-latin">Cursos de latín en línea</a>
+          <ul class="nav nav-fill nav-underline flex-column row-gap-5 mt-5 pb-5">
+            <li class="nav-item"><a class="nav-link" href="#cursos-latin-aprende-rosario">Aprende a rezar el rosario en latín</a></li>
+            <li class="nav-item"><a class="nav-link" href="#cursos-latin-latin-1">Curso latín I</a></li>
           </ul>
-        </nav>
-      </header>
+        </div>
+      </nav>
 
-      <article id="cursos-latin-aprende-rosario">
-        <header>
-          <h3><a href="#cursos-latin-aprende-rosario">Aprende a rezar el rosario en latín</a></h3>
-        </header>
-        <p>Curso finalizado y cerrado</p>
-      </article>
+      <div class="col-md">
 
-      <article id="cursos-latin-latin-1">
         <header>
-          <h3><a href="#cursos-latin-latin-1">Curso latín I</a></h3>
+          <h2><a href="#cursos-latin">Cursos de latín en línea</a></h2>
         </header>
-        <p>Inscripcciones cerradas para el 2026</p>
-        <a href="https://gabriel-1607.github.io/latin/">Ir a página del curso</a>
-      </article>
+
+        <article id="cursos-latin-aprende-rosario">
+          <header>
+            <h3><a href="#cursos-latin-aprende-rosario">Aprende a rezar el rosario en latín</a></h3>
+          </header>
+          <p>Curso finalizado y cerrado</p>
+        </article>
+
+        <article id="cursos-latin-latin-1">
+          <header>
+            <h3><a href="#cursos-latin-latin-1">Curso latín I</a></h3>
+          </header>
+          <p>Inscripcciones cerradas para el 2026</p>
+          <a href="https://gabriel-1607.github.io/latin/">Ir a página del curso</a>
+        </article>
+      </div>
 
     </section>
 

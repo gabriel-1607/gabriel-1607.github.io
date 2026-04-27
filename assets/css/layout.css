@@ -26,3 +26,9 @@ body > header.navbar {
     overflow-y: auto;
   }
 }
+
+/* temaporary: erase */
+main > section article {
+    margin-bottom: 100px;
+}
+/* temaporary: erase */
