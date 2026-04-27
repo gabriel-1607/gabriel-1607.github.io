@@ -1,26 +1,28 @@
-@media (max-width: 768px) {
-.main-nav > div {
-    height: 450px;
-}
+:root {
+    --navbar-height: 56px;
 }
 
-@media (min-height: 450px) and (min-width: 992px) {
-    .main-nav > div {
-        height: 100vh;
+@media (max-width: 767px) {
+    body:has(#navbar-links.show) {
+        --navbar-height: 256px;
     }
 }
 
-.main-nav > div {
-    overflow-y: scroll;
-    scrollbar-gutter: stable;
+body > header.navbar {
+    z-index: 1025;
 }
 
-@media (min-height: 450px) and (min-width: 992px) {
-    .main-nav > div {
-        overflow-y: hidden;
-    }
+.sticky-md-top:not(.navbar) {
+    top: var(--navbar-height) !important;
 }
 
-main > section > article {
-    scroll-margin-top: 100px;
+[id] {
+    scroll-margin-top: var(--navbar-height);
+}
+
+@media (min-width: 768px) {
+  .sidebar-scroll.sticky-md-top {
+    max-height: 100vh;
+    overflow-y: auto;
+  }
 }
